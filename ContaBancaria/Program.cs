@@ -11,7 +11,7 @@ namespace ContaBancaria
 
             Console.WriteLine("INSIRA AS INFORMAÇÕES DA CONTA ABAIXO. ");
 
-            Console.Write("DIGITE O NUMERO DA CONTA: ");
+            Console.Write("DIGITE O NUMERO DA CONTA A SEGUIR: ");
             int conta = int.Parse(Console.ReadLine());
             Console.Write("DIGITE O NOME DO TITULAR: ");
             string titular = Console.ReadLine();
